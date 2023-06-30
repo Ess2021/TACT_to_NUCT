@@ -1,6 +1,55 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <meta charset="UTF-8">
+  <title>TACT to NUCT</title>
+  <style>
+    /* CSSスタイル */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    
+    .text {
+      font-size: 48px;
+      font-weight: bold;
+      color: #333;
+      text-align: center;
+      transition: transform 0.3s ease-in-out;
+    }
+    
+    .text:hover {
+      animation: shake 0.3s;
+    }
+    
+    /* カーソルを乗せたときに震えるアニメーション */
+    @keyframes shake {
+      0% { transform: translateX(0); }
+      10% { transform: translateX(-5px) rotate(1deg); }
+      20% { transform: translateX(5px) rotate(-1deg); }
+      30% { transform: translateX(-5px) rotate(-1deg); }
+      40% { transform: translateX(5px) rotate(1deg); }
+      50% { transform: translateX(-5px) rotate(1deg); }
+      60% { transform: translateX(5px) rotate(-1deg); }
+      70% { transform: translateX(-5px) rotate(-1deg); }
+      80% { transform: translateX(5px) rotate(1deg); }
+      90% { transform: translateX(-5px) rotate(-1deg); }
+      100% { transform: translateX(0); }
+    }
+  </style>
+</head>
 <body>
-  <h1>Hello world!</h1>
+  <div class="container">
+    <h1 class="text">Shino D</h1>
+  </div>
 </body>
 </html>
