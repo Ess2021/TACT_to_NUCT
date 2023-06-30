@@ -1,8 +1,8 @@
 {
-    "name": "Sample",
+    "name": "TACT to NUCT",
     "version": "1.0.0",
     "manifest_version": 3,
-    "description":"sample",
+    "description":"tactactact",
     "permissions": ["activeTab", "scripting"],
     "author":"Shino D",
     "action":{
